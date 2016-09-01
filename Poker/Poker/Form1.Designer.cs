@@ -144,7 +144,7 @@
             // 
             // textBox24
             // 
-            this.textBox24.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox24.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox24.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox24.Location = new System.Drawing.Point(129, 48);
             this.textBox24.Margin = new System.Windows.Forms.Padding(4);
@@ -154,7 +154,7 @@
             // 
             // textBox23
             // 
-            this.textBox23.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox23.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox23.Location = new System.Drawing.Point(254, 48);
             this.textBox23.Margin = new System.Windows.Forms.Padding(4);
@@ -395,9 +395,8 @@
             // 
             // textBox26
             // 
-            this.textBox26.Enabled = false;
             this.textBox26.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox26.ForeColor = System.Drawing.Color.Red;
             this.textBox26.Location = new System.Drawing.Point(1004, 180);
             this.textBox26.Margin = new System.Windows.Forms.Padding(4);
             this.textBox26.Name = "textBox26";
@@ -487,9 +486,8 @@
             // 
             // textBox27
             // 
-            this.textBox27.Enabled = false;
             this.textBox27.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox27.ForeColor = System.Drawing.Color.Red;
             this.textBox27.Location = new System.Drawing.Point(879, 180);
             this.textBox27.Margin = new System.Windows.Forms.Padding(4);
             this.textBox27.Name = "textBox27";
@@ -571,9 +569,8 @@
             // 
             // textBox28
             // 
-            this.textBox28.Enabled = false;
             this.textBox28.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox28.ForeColor = System.Drawing.Color.Red;
             this.textBox28.Location = new System.Drawing.Point(754, 180);
             this.textBox28.Margin = new System.Windows.Forms.Padding(4);
             this.textBox28.Name = "textBox28";
@@ -618,7 +615,7 @@
             // 
             // textBox22
             // 
-            this.textBox22.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox22.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox22.Location = new System.Drawing.Point(379, 48);
             this.textBox22.Margin = new System.Windows.Forms.Padding(4);
@@ -652,9 +649,9 @@
             // 
             // textBox29
             // 
-            this.textBox29.Enabled = false;
+            this.textBox29.BackColor = System.Drawing.SystemColors.Window;
             this.textBox29.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox29.ForeColor = System.Drawing.Color.Red;
             this.textBox29.Location = new System.Drawing.Point(629, 180);
             this.textBox29.Margin = new System.Windows.Forms.Padding(4);
             this.textBox29.Name = "textBox29";
@@ -676,7 +673,7 @@
             // 
             // textBox21
             // 
-            this.textBox21.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox21.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox21.Location = new System.Drawing.Point(504, 48);
             this.textBox21.Margin = new System.Windows.Forms.Padding(4);
@@ -698,9 +695,8 @@
             // 
             // textBox30
             // 
-            this.textBox30.Enabled = false;
             this.textBox30.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox30.ForeColor = System.Drawing.Color.Red;
             this.textBox30.Location = new System.Drawing.Point(504, 180);
             this.textBox30.Margin = new System.Windows.Forms.Padding(4);
             this.textBox30.Name = "textBox30";
@@ -733,7 +729,7 @@
             // 
             // textBox20
             // 
-            this.textBox20.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox20.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox20.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox20.Location = new System.Drawing.Point(629, 48);
             this.textBox20.Margin = new System.Windows.Forms.Padding(4);
@@ -743,9 +739,8 @@
             // 
             // textBox31
             // 
-            this.textBox31.Enabled = false;
             this.textBox31.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox31.ForeColor = System.Drawing.Color.Red;
             this.textBox31.Location = new System.Drawing.Point(379, 180);
             this.textBox31.Margin = new System.Windows.Forms.Padding(4);
             this.textBox31.Name = "textBox31";
@@ -755,7 +750,7 @@
             // 
             // textBox19
             // 
-            this.textBox19.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox19.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox19.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox19.Location = new System.Drawing.Point(754, 48);
             this.textBox19.Margin = new System.Windows.Forms.Padding(4);
@@ -776,9 +771,8 @@
             // 
             // textBox32
             // 
-            this.textBox32.Enabled = false;
             this.textBox32.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox32.ForeColor = System.Drawing.Color.Red;
             this.textBox32.Location = new System.Drawing.Point(254, 180);
             this.textBox32.Margin = new System.Windows.Forms.Padding(4);
             this.textBox32.Name = "textBox32";
@@ -788,7 +782,7 @@
             // 
             // textBox18
             // 
-            this.textBox18.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox18.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox18.Location = new System.Drawing.Point(879, 48);
             this.textBox18.Margin = new System.Windows.Forms.Padding(4);
@@ -798,9 +792,8 @@
             // 
             // textBox33
             // 
-            this.textBox33.Enabled = false;
             this.textBox33.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox33.ForeColor = System.Drawing.Color.Red;
             this.textBox33.Location = new System.Drawing.Point(129, 180);
             this.textBox33.Margin = new System.Windows.Forms.Padding(4);
             this.textBox33.Name = "textBox33";
@@ -821,7 +814,7 @@
             // 
             // textBox17
             // 
-            this.textBox17.Font = new System.Drawing.Font("Old English Text MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox17.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox17.Location = new System.Drawing.Point(1004, 48);
             this.textBox17.Margin = new System.Windows.Forms.Padding(4);
@@ -1310,11 +1303,11 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(1043, 579);
+            this.label13.Location = new System.Drawing.Point(1103, 579);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(93, 13);
+            this.label13.Size = new System.Drawing.Size(33, 13);
             this.label13.TabIndex = 83;
-            this.label13.Text = "© Rishabh Katiyar";
+            this.label13.Text = "© Ré";
             // 
             // menuStrip1
             // 
@@ -1337,7 +1330,7 @@
             // pokerHandsToolStripMenuItem
             // 
             this.pokerHandsToolStripMenuItem.Name = "pokerHandsToolStripMenuItem";
-            this.pokerHandsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pokerHandsToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.pokerHandsToolStripMenuItem.Text = "Poker Hands";
             this.pokerHandsToolStripMenuItem.Click += new System.EventHandler(this.pokerHandsToolStripMenuItem_Click);
             // 

@@ -18,3 +18,13 @@ C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\PokerRepository\Poker\Po
 C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\PokerRepository\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache
 C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\PokerRepository\Poker\Poker\obj\Debug\Poker.exe
 C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\PokerRepository\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\bin\Debug\Poker.exe.config
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.exe
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.pdb
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\bin\Debug\Poker.exe
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\bin\Debug\Poker.pdb
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.Form1.resources
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.Form2.resources
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.Properties.Resources.resources
+C:\Users\rkatiyar\Documents\Visual Studio 2013\Projects\Poker-Repository\Poker\Poker\obj\Debug\Poker.csproj.GenerateResource.Cache

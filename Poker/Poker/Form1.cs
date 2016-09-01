@@ -484,7 +484,6 @@ namespace Poker
             displayOnTable();
             displayLoadTotalMoney();
         }
-
         public void refresh()
         {
             smallBlindDone = 0;
@@ -540,6 +539,7 @@ namespace Poker
         public Form1()
         {
             InitializeComponent();
+            //textBox33.Enabled = false;
         }
         private void button25_Click(object sender, EventArgs e)
         {
