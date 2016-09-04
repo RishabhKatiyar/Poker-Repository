@@ -7,14 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//=====================================================
-
-//(c) Copyright 2014 Rishabh Katiyar
-//All Rights Reserved
-               
-//This program is the proprietary information
-
-//=====================================================
+/*
+ * by Rishabh Katiyar
+ */ 
 namespace Poker
 {
     public partial class Form1 : Form
@@ -207,7 +202,7 @@ namespace Poker
             int[] Priority = new int[LEN2];
             if (LEN1 != LEN2)
             {
-                MessageBox.Show("Syntactically Wrong input");
+                MessageBox.Show("Wrong input.");
                 return;
             }
             int i;
@@ -222,7 +217,7 @@ namespace Poker
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Syntactically Wrong input");
+                MessageBox.Show("Wrong input.");
                 return;
             }
             int[] onBet = new int[count];
@@ -248,7 +243,7 @@ namespace Poker
                     }
                 }
             }
-            //sorted to create some data about data, to know who wins or grabs the main pot
+            //sorted to create some data about data, to know who wins the main pot
 
             // implemented logic of side pots (but this is a draw format so count will be increased till priority is same plus onBet is same)
             int start, end, pot, k, sum, sumPot = 0;
@@ -307,7 +302,7 @@ namespace Poker
                     }
                     k++;
                 }
-                //MANY CHECKS ARE THERE - FOR ARRAY OUT OF BOUNDS EXCEPTION
+                //CHECKS ARE THERE - TO PREVENT ARRAY OUT OF BOUNDS EXCEPTION
                 sumPot = 0;
                 for (k = start; k <= end; k++)
                 {
@@ -382,7 +377,7 @@ namespace Poker
                         Players[j + 1] = temp2;
                     }
                 }
-            } //sorted to create some data about data, to know who wins or grabs the main pot
+            } //sorted to create some data about data, to know who wins the main pot
 
             // implemented logic of side pots
             int start, end, pot, k, sum;

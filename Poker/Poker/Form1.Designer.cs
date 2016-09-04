@@ -128,6 +128,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pokerHandsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -1244,7 +1246,7 @@
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(116, 28);
             this.button44.TabIndex = 28;
-            this.button44.Text = "WINNERS";
+            this.button44.Text = "WINNERS (All In)";
             this.button44.UseVisualStyleBackColor = true;
             this.button44.Click += new System.EventHandler(this.button44_Click);
             // 
@@ -1275,7 +1277,7 @@
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(116, 28);
             this.button45.TabIndex = 31;
-            this.button45.Text = "DRAW";
+            this.button45.Text = "DRAW (All In)";
             this.button45.UseVisualStyleBackColor = true;
             this.button45.Click += new System.EventHandler(this.button45_Click);
             // 
@@ -1330,15 +1332,35 @@
             // pokerHandsToolStripMenuItem
             // 
             this.pokerHandsToolStripMenuItem.Name = "pokerHandsToolStripMenuItem";
-            this.pokerHandsToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.pokerHandsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.pokerHandsToolStripMenuItem.Text = "Poker Hands";
             this.pokerHandsToolStripMenuItem.Click += new System.EventHandler(this.pokerHandsToolStripMenuItem_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(382, 579);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 13);
+            this.label14.TabIndex = 85;
+            this.label14.Text = "Players";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(505, 579);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(35, 13);
+            this.label15.TabIndex = 86;
+            this.label15.Text = "Prioriy";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1141, 597);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
@@ -1459,6 +1481,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pokerHandsToolStripMenuItem;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
     }
 }
 
