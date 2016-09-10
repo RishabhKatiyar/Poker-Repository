@@ -534,8 +534,153 @@ namespace Poker
         public Form1()
         {
             InitializeComponent();
-            //textBox33.Enabled = false;
+            textBox1.MouseWheel += textBox1_MouseWheel;
+            textBox2.MouseWheel += textBox2_MouseWheel;
+            textBox3.MouseWheel += textBox3_MouseWheel;
+            textBox4.MouseWheel += textBox4_MouseWheel;
+            textBox5.MouseWheel += textBox5_MouseWheel;
+            textBox6.MouseWheel += textBox6_MouseWheel;
+            textBox7.MouseWheel += textBox7_MouseWheel;
+            textBox8.MouseWheel += textBox8_MouseWheel;
         }
+
+        void textBox1_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox1.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox1.Text = val.ToString();
+        }
+        void textBox2_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox2.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox2.Text = val.ToString();
+        }
+        void textBox3_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox3.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox3.Text = val.ToString();
+        }
+        void textBox4_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox4.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox4.Text = val.ToString();
+        }
+        void textBox5_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox5.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox5.Text = val.ToString();
+        }
+        void textBox6_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox6.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox6.Text = val.ToString();
+        }
+        void textBox7_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox7.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox7.Text = val.ToString();
+        }
+        void textBox8_MouseWheel(object sender, MouseEventArgs e)
+        {
+            int val = int.Parse(textBox8.Text);
+            if (e.Delta >= 0)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.Delta < 0)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox8.Text = val.ToString();
+        }
+
         private void button25_Click(object sender, EventArgs e)
         {
             int i;
