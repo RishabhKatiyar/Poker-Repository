@@ -234,6 +234,7 @@
             this.textBox5.Size = new System.Drawing.Size(116, 35);
             this.textBox5.TabIndex = 23;
             this.textBox5.Text = "0";
+            this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox5_KeyDown);
             // 
             // tableLayoutPanel1
             // 
@@ -382,6 +383,7 @@
             this.textBox4.Size = new System.Drawing.Size(116, 35);
             this.textBox4.TabIndex = 22;
             this.textBox4.Text = "0";
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyDown);
             // 
             // button14
             // 
@@ -428,6 +430,7 @@
             this.textBox6.Size = new System.Drawing.Size(116, 35);
             this.textBox6.TabIndex = 24;
             this.textBox6.Text = "0";
+            this.textBox6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox6_KeyDown);
             // 
             // button10
             // 
@@ -451,6 +454,7 @@
             this.textBox7.Size = new System.Drawing.Size(116, 35);
             this.textBox7.TabIndex = 25;
             this.textBox7.Text = "0";
+            this.textBox7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox7_KeyDown);
             // 
             // button16
             // 
@@ -602,6 +606,7 @@
             this.textBox8.Size = new System.Drawing.Size(116, 35);
             this.textBox8.TabIndex = 26;
             this.textBox8.Text = "0";
+            this.textBox8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox8_KeyDown);
             // 
             // button31
             // 
@@ -728,6 +733,7 @@
             this.textBox3.Size = new System.Drawing.Size(116, 35);
             this.textBox3.TabIndex = 21;
             this.textBox3.Text = "0";
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyDown);
             // 
             // textBox20
             // 
@@ -770,6 +776,7 @@
             this.textBox2.Size = new System.Drawing.Size(116, 35);
             this.textBox2.TabIndex = 20;
             this.textBox2.Text = "0";
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // textBox32
             // 
@@ -813,6 +820,7 @@
             this.textBox1.Size = new System.Drawing.Size(116, 35);
             this.textBox1.TabIndex = 19;
             this.textBox1.Text = "0";
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // textBox17
             // 
@@ -1332,7 +1340,7 @@
             // pokerHandsToolStripMenuItem
             // 
             this.pokerHandsToolStripMenuItem.Name = "pokerHandsToolStripMenuItem";
-            this.pokerHandsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pokerHandsToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.pokerHandsToolStripMenuItem.Text = "Poker Hands";
             this.pokerHandsToolStripMenuItem.Click += new System.EventHandler(this.pokerHandsToolStripMenuItem_Click);
             // 

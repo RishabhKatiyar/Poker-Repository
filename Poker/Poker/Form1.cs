@@ -105,7 +105,7 @@ namespace Poker
             temp -= amount;
             if (temp < 0)
             {
-                MessageBox.Show("Only check allowed");
+                MessageBox.Show("You don't have enough balance to raise with this much amount.");
                 return;
             }
             initialMoney[player] = temp;
@@ -443,14 +443,14 @@ namespace Poker
         }
         public void refreshRaise()
         {
-            textBox8.Text = smallBlind.ToString();
-            textBox7.Text = smallBlind.ToString();
-            textBox6.Text = smallBlind.ToString();
-            textBox5.Text = smallBlind.ToString();
-            textBox4.Text = smallBlind.ToString();
-            textBox3.Text = smallBlind.ToString();
-            textBox2.Text = smallBlind.ToString();
-            textBox1.Text = smallBlind.ToString();
+            textBox8.Text = (smallBlind * 2).ToString();
+            textBox7.Text = (smallBlind * 2).ToString();
+            textBox6.Text = (smallBlind * 2).ToString();
+            textBox5.Text = (smallBlind * 2).ToString();
+            textBox4.Text = (smallBlind * 2).ToString();
+            textBox3.Text = (smallBlind * 2).ToString();
+            textBox2.Text = (smallBlind * 2).ToString();
+            textBox1.Text = (smallBlind * 2).ToString();
         }
         public void displayLoadTotalMoney()
         {
@@ -969,6 +969,150 @@ namespace Poker
         {
             Form2 ob = new Form2();
             ob.Show();
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox1.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+               val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                     val = (smallBlind * 2);
+                }
+            }
+            textBox1.Text = val.ToString();
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox2.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox2.Text = val.ToString();
+        }
+
+        private void textBox3_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox3.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox3.Text = val.ToString();
+        }
+
+        private void textBox4_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox4.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox4.Text = val.ToString();
+        }
+
+        private void textBox5_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox5.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox5.Text = val.ToString();
+        }
+
+        private void textBox6_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox6.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox6.Text = val.ToString();
+        }
+
+        private void textBox7_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox7.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox7.Text = val.ToString();
+        }
+
+        private void textBox8_KeyDown(object sender, KeyEventArgs e)
+        {
+            int val = int.Parse(textBox8.Text);
+            if (e.KeyCode == Keys.Up)
+            {
+                val = val + (smallBlind * 2);
+            }
+            else if (e.KeyCode == Keys.Down)
+            {
+                val = val - (smallBlind * 2);
+                if (val < (smallBlind * 2))
+                {
+                    val = (smallBlind * 2);
+                }
+            }
+            textBox8.Text = val.ToString();
         }
     }
 }
